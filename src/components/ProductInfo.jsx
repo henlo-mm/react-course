@@ -2,18 +2,21 @@ import React from 'react'
 import '../styles/ProductInfo.scss';
 function ProductInfo() {
   return (
-    <div>
-      <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bike" />
-        <div className="Product-Info">
-          <p>$35,00</p>
+    
+
+    <div clasName="Product-Card">
+      <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
+      <div clasName="Product-Info">
+        <div>
+          <p>$120,00</p>
           <p>Bike</p>
-          <p>With its practical position, this bike also fulfills a decorative function, add your hall or workspace.</p>
-          <button className="primary-button add-to-cart-button">
-            <img src="./icons/bt_add_to_cart.svg" alt="add to cart" />
-            Add to cart
-          </button>
         </div>
+        <figure>
+          <img src="./icons/bt_add_to_cart.svg" alt="" />
+        </figure>
+      </div>
     </div>
+  
   )
 }
 

@@ -14,10 +14,10 @@ function Menu() {
 
       <ul>
         <li>
-          <a href="/" class="email">platzi@example.com</a>
+          
         </li>
         <li>
-          <a href="/" class="sign-out">Sign out</a>
+          <a href="/" className="sign-out">Sign out</a>
         </li>
       </ul>
     </div>
